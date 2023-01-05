@@ -19,11 +19,11 @@ package unstructuredscheme
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/versioning"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/versioning"
 )
 
 var scheme = runtime.NewScheme()

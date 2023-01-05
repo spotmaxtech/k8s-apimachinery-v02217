@@ -21,11 +21,11 @@ import (
 	"regexp"
 	"unicode"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/types"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/validation"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/validation/field"
 )
 
 func ValidateLabelSelector(ps *metav1.LabelSelector, fldPath *field.Path) field.ErrorList {

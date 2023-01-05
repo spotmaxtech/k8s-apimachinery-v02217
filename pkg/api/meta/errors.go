@@ -19,8 +19,8 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/sets"
 )
 
 // AmbiguousResourceError is returned if the RESTMapper finds multiple matches for a resource

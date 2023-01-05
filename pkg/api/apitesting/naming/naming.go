@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/sets"
 )
 
 var (

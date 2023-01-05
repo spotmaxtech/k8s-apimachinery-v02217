@@ -17,10 +17,10 @@ limitations under the License.
 package internalversion
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/fields"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/runtime"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/fields"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/labels"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

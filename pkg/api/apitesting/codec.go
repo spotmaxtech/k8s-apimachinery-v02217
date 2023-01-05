@@ -21,10 +21,10 @@ import (
 	"mime"
 	"os"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/runtime/serializer/recognizer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	runtimeserializer "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/recognizer"
 )
 
 var (

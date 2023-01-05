@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/apimachinery
+module github.com/spotmaxtech/k8s-apimachinery-v02217
 
 go 1.16
 

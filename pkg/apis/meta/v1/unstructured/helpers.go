@@ -22,11 +22,11 @@ import (
 	"io"
 	"strings"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/json"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/types"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/json"
 	"k8s.io/klog/v2"
 )
 

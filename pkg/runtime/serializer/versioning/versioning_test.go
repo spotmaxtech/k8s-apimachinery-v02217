@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	runtimetesting "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/testing"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/diff"
 )
 
 type testDecodable struct {

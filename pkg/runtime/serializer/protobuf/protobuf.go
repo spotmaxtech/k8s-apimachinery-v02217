@@ -25,11 +25,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/recognizer"
-	"k8s.io/apimachinery/pkg/util/framer"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/recognizer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/framer"
 )
 
 var (

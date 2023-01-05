@@ -23,10 +23,10 @@ import (
 	"strings"
 
 	"github.com/google/go-cmp/cmp"
-	"k8s.io/apimachinery/pkg/selection"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/validation"
-	"k8s.io/apimachinery/pkg/util/validation/field"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/selection"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/validation"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/validation/field"
 	"k8s.io/klog/v2"
 )
 

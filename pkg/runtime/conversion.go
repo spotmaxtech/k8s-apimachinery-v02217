@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/conversion"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/conversion"
 )
 
 // DefaultMetaV1FieldSelectorConversion auto-accepts metav1 values for name and namespace.

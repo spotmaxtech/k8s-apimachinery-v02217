@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/util/json"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/conversion"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/json"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/runtime"
 	"sigs.k8s.io/structured-merge-diff/v4/value"
 
 	"k8s.io/klog/v2"

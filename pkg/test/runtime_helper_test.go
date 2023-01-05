@@ -19,10 +19,10 @@ package test
 import (
 	"testing"
 
-	apitesting "k8s.io/apimachinery/pkg/api/apitesting"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/testapigroup"
-	"k8s.io/apimachinery/pkg/runtime"
+	apitesting "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/api/apitesting"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/testapigroup"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
 )
 
 func TestDecodeList(t *testing.T) {

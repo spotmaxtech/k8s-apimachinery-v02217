@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/wait"
-	. "k8s.io/apimachinery/pkg/watch"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/wait"
+	. "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/watch"
 )
 
 type myType struct {

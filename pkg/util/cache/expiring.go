@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	utilclock "k8s.io/apimachinery/pkg/util/clock"
+	utilclock "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/clock"
 )
 
 // NewExpiring returns an initialized expiring cache.

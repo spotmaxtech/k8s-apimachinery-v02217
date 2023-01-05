@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/json"
 )
 
 type GroupVersionHolder struct {

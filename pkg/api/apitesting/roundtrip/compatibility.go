@@ -31,17 +31,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	fuzz "github.com/google/gofuzz"
 
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	apimeta "k8s.io/apimachinery/pkg/api/meta"
-	genericfuzzer "k8s.io/apimachinery/pkg/apis/meta/fuzzer"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/protobuf"
-	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/apimachinery/pkg/util/sets"
+	apiequality "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/api/equality"
+	apimeta "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/api/meta"
+	genericfuzzer "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/fuzzer"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/protobuf"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/intstr"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/sets"
 )
 
 // CompatibilityTestOptions holds configuration for running a compatibility test using in-memory objects

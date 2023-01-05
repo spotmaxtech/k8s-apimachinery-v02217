@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	runtimetesting "k8s.io/apimachinery/pkg/runtime/testing"
-	"k8s.io/apimachinery/pkg/util/diff"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/serializer/json"
+	runtimetesting "github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime/testing"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/util/diff"
 )
 
 type testDecodable struct {

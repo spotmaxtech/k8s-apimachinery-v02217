@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v02217/pkg/runtime"
 )
 
 func TestEmbeddedRawExtensionMarshal(t *testing.T) {
